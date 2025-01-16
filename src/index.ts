@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Formio from 'formiojs';
+import Formio from 'formiojs-eorion';
 import * as components from './components';
 export * from './components';
 
@@ -9,4 +9,4 @@ Object.keys(components).forEach((name) => {
   Vue.component(name, components[name]);
 });
 
-export {Components, Formio, Utils, Templates} from 'formiojs';
+export {Components, Formio, Utils, Templates} from 'formiojs-eorion';

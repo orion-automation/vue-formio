@@ -3,6 +3,6 @@ declare module '*.vue' {
   export default Vue;
 }
 
-declare module 'formiojs';
+declare module 'formiojs-eorion';
 
-declare module 'formiojs/Formio';
+declare module 'formiojs-eorion/Formio';
